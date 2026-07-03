@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy – Prayer Times Malaysia</title>
+  <title>Terms &amp; Conditions – Prayer Times Malaysia</title>
   <link rel="icon" type="image/png" href="assets/logo-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link
@@ -39,11 +39,13 @@
       font-family: 'Fraunces', serif;
     }
 
+    /* ---- Header ---- */
     header {
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 22px 6vw;
+      background: var(--cream);
     }
 
     .brand {
@@ -87,9 +89,10 @@
       padding-bottom: 4px;
     }
 
+    /* ---- Hero: arch panel ---- */
     .hero {
       position: relative;
-      margin: 0 6vw;
+      margin: 0 6vw 0;
       background: var(--ink);
       border-radius: 200px 200px 24px 24px;
       padding: 76px 40px 56px;
@@ -101,7 +104,8 @@
       content: "";
       position: absolute;
       inset: 0;
-      background: radial-gradient(circle at 50% 0%, rgba(95, 173, 160, 0.18), transparent 55%);
+      background:
+        radial-gradient(circle at 50% 0%, rgba(201, 151, 77, 0.18), transparent 55%);
     }
 
     .hero-icon {
@@ -137,6 +141,7 @@
       position: relative;
     }
 
+    /* ---- Content ---- */
     main {
       max-width: 760px;
       margin: 0 auto;
@@ -178,15 +183,15 @@
     }
 
     .section:nth-child(4n+1) .num {
-      background: var(--teal);
-    }
-
-    .section:nth-child(4n+2) .num {
       background: var(--gold);
     }
 
-    .section:nth-child(4n+3) .num {
+    .section:nth-child(4n+2) .num {
       background: var(--coral);
+    }
+
+    .section:nth-child(4n+3) .num {
+      background: var(--teal);
     }
 
     .section:nth-child(4n+0) .num {
@@ -208,14 +213,6 @@
 
     .section p:last-child {
       margin-bottom: 0;
-    }
-
-    .section ul {
-      margin: 8px 0 0;
-      padding-left: 18px;
-      color: var(--ink-soft);
-      font-size: 14.5px;
-      line-height: 1.8;
     }
 
     footer {
@@ -247,114 +244,95 @@
 
   <header>
     <div class="brand">
-      <div class="brand-badge"><img src="assets/logo-icon.png" alt="Prayer Times Malaysia logo"></div>
+      <div class="brand-badge">
+        <img src="assets/logo-icon.png" alt="Prayer Times Malaysia logo">
+      </div>
       <span class="brand-name">Prayer Times Malaysia</span>
     </div>
     <nav>
       <a href="index.html">Home</a>
-      <a href="privacy.html" class="active">Privacy</a>
-      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html" class="active">Terms</a>
     </nav>
   </header>
 
   <section class="hero">
-    <div class="hero-icon"><img src="assets/logo-icon.png" alt="Prayer Times Malaysia logo"></div>
-    <h1>Privacy Policy</h1>
-    <p>What we collect, why, and how your information is handled — in plain language.</p>
+    <div class="hero-icon">
+      <img src="assets/logo-icon.png" alt="Prayer Times Malaysia logo">
+    </div>
+    <h1>Terms &amp; Conditions</h1>
+    <p>The agreement between you and Prayer Times Malaysia — plain, direct, and easy to follow.</p>
   </section>
 
   <main>
-    <div class="updated">This policy is effective as of 3 December 2025</div>
+    <div class="updated">Last updated — 3 July 2026</div>
 
     <div class="section">
       <div class="num">1</div>
       <div>
-        <h2>Information we collect</h2>
-        <p>Prayer Times Malaysia does not obtain any information when you download and use it. Registration is not
-          required to use the Application, and no personal data is requested.</p>
+        <h2>Accepting these terms</h2>
+        <p>By downloading or using Prayer Times Malaysia, you agree to these terms. If you don't agree with any part of
+          them, please don't use the app.</p>
       </div>
     </div>
 
     <div class="section">
       <div class="num">2</div>
       <div>
-        <h2>Location data</h2>
-        <p>This Application does not collect precise real-time location information from your device.</p>
+        <h2>What the app does</h2>
+        <p>Prayer Times Malaysia shows daily prayer times, zone selection, and related settings based on your chosen
+          location. Times are calculated for guidance and may vary slightly from your local mosque's schedule.</p>
       </div>
     </div>
 
     <div class="section">
       <div class="num">3</div>
       <div>
-        <h2>Data sharing</h2>
-        <p>Since the Application does not collect any information, no data is shared with third parties.</p>
+        <h2>Using the app responsibly</h2>
+        <p>You agree to use the app only for its intended purpose and not to interfere with its normal operation,
+          attempt to reverse-engineer it, or use it in any way that could harm other users.</p>
       </div>
     </div>
 
     <div class="section">
       <div class="num">4</div>
       <div>
-        <h2>Your opt-out rights</h2>
-        <p>You can stop all collection of information by the Application by uninstalling it. You may use the standard
-          uninstall process available on your mobile device or through the app marketplace.</p>
+        <h2>Accuracy of information</h2>
+        <p>We do our best to keep prayer times accurate for each zone, but the app is provided "as is" without warranty.
+          We recommend confirming times with your local mosque for important occasions.</p>
       </div>
     </div>
 
     <div class="section">
       <div class="num">5</div>
       <div>
-        <h2>Children</h2>
-        <p>The Application is not used to knowingly solicit data from or market to children under the age of 13.</p>
-        <p>We do not knowingly collect personally identifiable information from children. We encourage children to never
-          submit any personally identifiable information through the Application, and we encourage parents and legal
-          guardians to monitor their children's use and help enforce this policy. If you believe a child has provided
-          personal information through the Application, please contact us at <a
-            href="mailto:mohammaddiari@hotmail.com">mohammaddiari@hotmail.com</a> so we can take appropriate action. You
-          must be at least 16 years of age to consent to the processing of your personal information in your country (in
-          some countries a parent or guardian may consent on your behalf).</p>
+        <h2>Changes to the app</h2>
+        <p>We may update, modify, or discontinue features of the app at any time to improve functionality or fix issues.
+        </p>
       </div>
     </div>
 
     <div class="section">
       <div class="num">6</div>
       <div>
-        <h2>Security</h2>
-        <p>We take the confidentiality of your information seriously. However, since the Application does not collect
-          any information, there is no risk of your data being accessed by unauthorized individuals.</p>
+        <h2>Changes to these terms</h2>
+        <p>We may revise these terms from time to time. Continued use of the app after changes means you accept the
+          updated terms.</p>
       </div>
     </div>
 
     <div class="section">
       <div class="num">7</div>
       <div>
-        <h2>Your consent</h2>
-        <p>By using the Application, you consent to the processing of your information as set out in this Privacy
-          Policy, now and as amended.</p>
-      </div>
-    </div>
-
-    <div class="section">
-      <div class="num">8</div>
-      <div>
-        <h2>Changes to this policy</h2>
-        <p>This Privacy Policy may be updated from time to time for any reason. We will notify you of changes by
-          updating this page. You are advised to consult this page regularly, as continued use of the Application after
-          changes is deemed approval of those changes.</p>
-      </div>
-    </div>
-
-    <div class="section">
-      <div class="num">9</div>
-      <div>
         <h2>Contact</h2>
-        <p>Questions about this policy or our privacy practices? Reach out at <a
+        <p>Questions about these terms? Reach out at <a
             href="mailto:mohammaddiari@hotmail.com">mohammaddiari@hotmail.com</a>.</p>
       </div>
     </div>
   </main>
 
   <footer>
-    © <span id="year"></span> Prayer Times Malaysia. See also our <a href="terms.html">Terms &amp; Conditions</a>.
+    © <span id="year"></span> Prayer Times Malaysia. See also our <a href="privacy.html">Privacy Policy</a>.
   </footer>
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
